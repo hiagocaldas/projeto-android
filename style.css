@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Qwitcher+Grypen:wght@700 & display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#3ddc84;
+    --cor2:#2fa866;    
+    --cor3:#1a5c37;
+    --cor4:#002b13;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android';
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    min-height: 150px;
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    
+}
+
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+body{
+    background-color: var(--cor0);
+}
+header>h1{
+    color: white;
+    font-family: var(--fonte-android);
+    padding-top: 40px;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.548);
+}
+header>p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+main h1{
+    color: var(--cor2);
+    font-family: var(--fonte-destaque);
+}
+nav{
+    background-color: var(--cor4);
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+    padding-bottom: 10px;
+
+
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 1s;
+    
+}
+nav>a:hover{
+    color: #3ddc84;
+    background-color: #1a5c37;
+    border-radius: 5px;
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+main p{
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+main img{
+    width: 100%;
+}
+main h2{
+    font-family: var(--fonte-destaque);
+    
+}
+aside{
+    background-color:var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside h3{
+    background-color: #002b13;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px -10px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside ul{
+    padding: 10px;
+    list-style-position: inside;
+    
+}
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+main iframe{
+    margin: auto;
+    display: block;
+}
+.pequena{
+    max-width: 300px;
+}
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+}
